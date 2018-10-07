@@ -1,0 +1,18 @@
+body {
+    background-image: url('/assets/images/pow-star.png');
+    /* background-color: grey; */
+}
+
+.navbar {
+    background-image: url('/assets/images/purty_wood_@2X.png')
+}
+
+h1 {
+    font-family: 'Rye', cursive;
+    color: #ff9966;
+    text-shadow: 2px 2px #666;
+}
+
+.kevBox {
+    background-color: white;
+}
