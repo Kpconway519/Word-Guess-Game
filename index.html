@@ -7,7 +7,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/javascript/game.js"></script>  
     <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
 
     <title>Kevin's Word Guess Bonanza!</title>
@@ -19,26 +18,31 @@
     <header>
         <h1>Sarsaparilla Kev's Word Guess Bonanza!</h1>
         <br>
-    </header>
+    </header> 
 </div>
 <br>
 
-<div class="container">
-    <div class="kevBox bg-dark border border-warning">
-
-        <p>Press any Key to Get Started!</p>
-        <p>Wins: </p>
-        <p>Current Word</p>
-        <p>Insert JS blanks here for word</p>
-        <p>Number of Guesses Remaining</p>
-        <p>number of guesses here</p>
-        <p>Letters Already Guessed</p>
-        <p>insert letters guessed here with commas separating them</p>
+<div class="kevBox container bg-light">
+    <div class="row">
+        
+        <div class="col-md-4"><img class="thumbnail img-fluid" src="http://placehold.it/300x300" alt=""></div>
+        <div class="col-md-4">
+            <p>Press any Key to Get Started!</p>
+            <p>Wins: <span id="gamesWon"></span></p>
+            <p>Insert Current Word here.</p>
+            <p>Insert JS blanks here for word</p>
+            <p>Number of Guesses Remaining</p>
+            <p>number of guesses here</p>
+            <p>Letters Already Guessed</p>
+            <p>insert letters guessed here with commas separating them</p>
+        </div>
     </div>
+
+
 
 </div>
 
-
+<script src="assets/javascript/game.js"></script>  
 
 
 

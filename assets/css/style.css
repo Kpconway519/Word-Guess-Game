@@ -1,10 +1,10 @@
 body {
-    background-image: url('/assets/images/pow-star.png');
+    background-image: url("../images/pow-star.png");
     /* background-color: grey; */
 }
 
 .navbar {
-    background-image: url('/assets/images/purty_wood_@2X.png')
+    background-image: url(../images/purty_wood_@2X.png);
 }
 
 h1 {
